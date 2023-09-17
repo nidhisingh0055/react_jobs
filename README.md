@@ -1,14 +1,5 @@
-# Expo Router Example
+# react_jobs 
+This app is for react and java developers who wants to find jobs related to react native. 
+Through this aap user can easily see the avalability of jobs , can go thorugh each companies details and can also apply to the comapny.
+This app is made using react native. 
 
-Use [`expo-router`](https://expo.github.io/router) to build native navigation using files in the `app/` directory.
-
-## 🚀 How to use
-
-```sh
-npx create-expo-app -e with-router
-```
-
-## 📝 Notes
-
-- [Expo Router: Docs](https://expo.github.io/router)
-- [Expo Router: Repo](https://github.com/expo/router)
