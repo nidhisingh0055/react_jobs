@@ -32,12 +32,12 @@ const styles = StyleSheet.create({
   },
   jobName: {
     fontSize: SIZES.medium,
-    fontFamily: "DMBoldO",
+    fontFamily: "sans-serif",
     color: COLORS.primary,
   },
   jobType: {
     fontSize: SIZES.small + 2,
-    fontFamily: "DMRegular",
+    fontFamily: "sans-serif",
     color: COLORS.gray,
     marginTop: 3,
     textTransform: "capitalize",

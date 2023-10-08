@@ -1,4 +1,4 @@
-import { useState} from 'react'
+import { useEffect, useState} from 'react'
 import { 
   View, Text, TouchableOpacity, FlatList, ActivityIndicator
  } from 'react-native'
@@ -21,7 +21,7 @@ const Popularjobs = () => {
   const [selectedJob , setSelectedJob] =useState()
 
   const handleCardPress = (item) => {
-    router.push('/job-details/${item.job_id}');
+    router.push(`/job-details/${item.job_id}`);
     setSelectedJob(item.job_id)
   }
 
@@ -41,10 +41,12 @@ const Popularjobs = () => {
           <Text>Something went wrong</Text>
         ) : (
           <FlatList 
-            data={[1,2,3,4]}
+            data={data}
             renderItem={({ item }) => (
               <PopularJobCard 
                 item={item}
+                selectedJob={selectedJob}
+                handleCardPress={handleCardPress}
               />
             )}
             keyExtractor={item => item?.job_id}

@@ -4,10 +4,10 @@ import { View, Text , Image} from 'react-native'
 import styles from './company.style'
 import {checkImageURL, icons} from '../../../utils'
 
-const Company = ({ companyLogo, jobTitle, comapnyName, Location }) => {
+const Company = ({ companyLogo, jobTitle, companyName, location }) => {
   return (
     <View style={styles.conatiner}>
-      <View style={styles.logBox}>
+      <View style={styles.logoBox}>
         <Image
           source={{
             uri: checkImageURL(companyLogo)
@@ -25,7 +25,7 @@ const Company = ({ companyLogo, jobTitle, comapnyName, Location }) => {
         <Text style={styles.companyName}>{companyName} / </Text>
         <View style={styles.locationBox}>
           <Image
-            source={icons.location}
+            
             resizeMode='contain'
             style={styles.locationImage}
           />
@@ -36,5 +36,4 @@ const Company = ({ companyLogo, jobTitle, comapnyName, Location }) => {
     </View>
   )
 }
-
 export default Company
