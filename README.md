@@ -6,22 +6,7 @@ This app is made using react native.
 apk link for this app : https://expo.dev/artifacts/eas/h9W1vsNY7mKQTePCBuZUWp.apk
 
 Below is the ss of react_jobs application
-<!DOCTYPE html> 
-<html> 
 
-<head> 
-	<title> 
-		
-	</title> 
-</head> 
-
-<body> 
-	<img src= 
-"![WhatsApp Image 2023-11-14 at 19 00 52_763dff37](https://github.com/nidhisingh0055/react_jobs/assets/108945026/2c5e255c-145f-4ea3-a1f7-81b52aa74489)  "
-		alt="GeeksforGeeks logo" width="300" height="300"> 
-</body> 
-
-</html>
 
 ![WhatsApp Image 2023-11-14 at 19 00 52_763dff37](https://github.com/nidhisingh0055/react_jobs/assets/108945026/2c5e255c-145f-4ea3-a1f7-81b52aa74489)  
 ![WhatsApp Image 2023-11-14 at 19 00 51_33ab31e0](https://github.com/nidhisingh0055/react_jobs/assets/108945026/e858c7e0-b155-4f1e-b2e3-a9e389169eda) 
